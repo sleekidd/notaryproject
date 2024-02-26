@@ -42,7 +42,7 @@ const Hero = () => {
                         </a>
                     </div>
                     <div>
-                        <h1 className="w-full text-4xl font-light text-center text-gray-800 sm:text-5xl dark:text-white mt-4" style={{fontSize: '28px', fontFamily: "Montserrat", lineHeight: '39px', fontWeight: '400'}}>
+                        <h1 className="w-full text-4xl font-light text-center sm:text-5xl mt-4" style={{fontSize: '28px', fontFamily: "Montserrat", lineHeight: '39px', fontWeight: '400'}}>
                             We have notaries that can legally notarize your document from <br/> <span style={{color: '#0DA3FF', fontWeight: '700'}}>anywhere in the world!</span>
                         </h1>
                     </div>
