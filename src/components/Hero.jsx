@@ -1,12 +1,11 @@
 import React from 'react';
-import LanguageDropdown from './LanguageDropdown';
 import Illustration from '../assets/Illustration.svg';
 import Group from '../assets/Group-3.svg';
 import ParentDropdown from './ParentDropdown';
 
 const Hero = () => {
   return (
-    <main className="bg-white dark:bg-gray-800">
+    <main className="bg-white">
       <header className="z-30 flex items-center justify-end w-full h-24">
         <div className="container flex items-center justify-end px-6 mx-auto">
           <div className="flex items-center">
@@ -21,7 +20,7 @@ const Hero = () => {
             <h2 className="w-full max-w-2xl py-4 mx-auto text-3xl font-light text-center text-gray-500 dark:text-white" style={{ fontFamily: "Montserrat", fontWeight: '400', fontSize: "36px", color: "#101727", lineHeight: "44px" }}>
               Designed for International users
             </h2>
-            <h1 className="w-full text-4xl font-light text-center text-gray-800 sm:text-5xl dark:text-white" style={{ fontFamily: "Montserrat", fontWeight: '400', fontSize: "64px", color: "#101727", lineHeight: "78px" }}>
+            <h1 className="w-full text-4xl font-light text-center text-gray-800 sm:text-5xl dark:text-white" style={{ fontFamily: "Montserrat", fontWeight: '400', fontSize: "4em", color: "#101727", lineHeight: "78px" }}>
               Get your name <br/> <span style={{ fontFamily: "Montserrat", fontWeight: '700', fontSize: "64px", color: "#00B87C", lineHeight: "78px" }}>changed fast⚡️</span>
             </h1>
             <div className="flex items-center justify-between" style={{width: "566px", height: "44px", paddingTop: '27px' }}>
