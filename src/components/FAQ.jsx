@@ -8,8 +8,8 @@ const FAQ = () => {
     <div style={{ padding: '200px 0'}}>
       <div class="flex items-center justify-center" style={{ paddingBottom: '64px'}}>
           <div>
-            <p class="text-center text-xl font-semibold" style={{ fontFamily: 'Montserrat', fontSize: '48px', lineHeight: '58.51px', color: '#101727', fontWeight: '400' }}>Ask away. <br />
-<span style={{ color: '#00B87C', fontWeight: '700' }}>We have answers! </span></p>
+            <p class="text-center section-title">Ask away. <br />
+<span>We have answers! </span></p>
           </div>
         </div>
 

@@ -22,6 +22,19 @@
     border: 1px solid #000000;
   }
 
+  .section-title {
+    font-family: 'Montserrat';
+    font-size: 48px;
+    line-height: 58.51px;
+    color: #101727;
+    font-weight: 400;
+  }
+
+  .section-title > span {
+    font-weight: 700;
+    color: #00B87C;
+  }
+
   .footer-text {
     font-family: 'Rubik';
     font-size: 16px;

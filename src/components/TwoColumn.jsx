@@ -11,7 +11,7 @@ const TwoColumn = () => {
     <div>
       <div class="flex items-center justify-center" style={{ paddingBottom: '64px'}}>
         <div>
-          <p class="text-center text-xl font-semibold" style={{ fontFamily: 'Montserrat', fontSize: '48px', lineHeight: '58.51px', color: '#00B87C', fontWeight: '700' }}>With us, <span style={{ color: '#101727', fontWeight: '400' }}>you get:</span></p>
+          <p class="text-center section-title"><span>With us,</span> you get:</p>
         </div>
       </div>
 

@@ -9,7 +9,7 @@ const HowItWorks = () => {
     <div style={{ paddingTop: '172px' }}>
         <div class="flex items-center justify-left" style={{  paddingBottom: '64px'}}>
         <div>
-            <p class="text-center text-xl font-semibold" style={{ width: '800px', fontFamily: 'Montserrat', fontSize: '48px', lineHeight: '58.51px', color: '#101727', fontWeight: '400' }}>How  <span style={{ color: '#00B87C', fontWeight: '700' }}>it works</span></p>
+            <p class="text-center section-title" style={{ width: '800px' }}><span>How</span> it works</p>
         </div>
         </div>
         <div className="flex justify-center mt-10">
