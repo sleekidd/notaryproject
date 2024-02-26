@@ -37,7 +37,7 @@ const TwoColumn = () => {
         </div>
       </div>
     </div>
-    <div className="mx-auto justify-center items-center" style={{ width: '1280px', paddingTop: '172px'}}>
+    <div className="mx-auto justify-center items-center responsive-width">
       <div>
       <HorizontalLine />
       </div>

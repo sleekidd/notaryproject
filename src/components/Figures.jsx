@@ -4,11 +4,11 @@ const Figures = ({ figure, description, icon }) => {
   return (
     <div className="p-6 flex items-center">
       <div className="mr-4">
-        <img src={icon} alt="Icon" style={{ width: '64px', height: '64px' }} />
+        <img src={icon} alt="Icon" className='figures-icon' />
       </div>
       <div>
-        <h2 className="text-xl font-semibold text-gray-800" style={{ fontFamily: "Inter", fontWeight: '700', fontSize: '36px', lineHeight: "44px", color: '#00B87C' }}>{figure}</h2>
-        <p className="text-gray-600" style={{ fontFamily: "Inter", fontWeight: '500', fontSize: '16px', lineHeight: "24px", color: '#01213E' }}>{description}</p>
+        <h2 className="figures-title">{figure}</h2>
+        <p className="figures-description">{description}</p>
       </div>
     </div>
   );

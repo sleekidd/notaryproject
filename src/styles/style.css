@@ -83,7 +83,8 @@
   }
 
   .cta {
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     padding: 64px 166.6px;
     margin: 0 auto 48px;
     border: 1px solid #000000;
@@ -106,6 +107,18 @@
       font-size: 24px;
       line-height: 34px;
     }
+    .accordion-content {
+      width: 100%;
+      max-width: 1066px;
+      padding: 0 20px;
+    }
+    .rounded-full {
+      border-radius: 9px;
+  }
+  .responsive-width {
+    width: 100%;
+    padding-top: 172px;
+  }
   }
 
   .faq-container {
@@ -160,3 +173,27 @@
     cursor: pointer;
   }
   
+  .figures-title {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #00B87C;
+  }
+  .figures-description {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #01213E;
+  }
+  .figures-icon {
+    width: 64px;
+    height: 64px;
+  }
+  
+  .responsive-width {
+    width: 100%;
+    max-width: 1280px;
+    padding-top: 172px;
+  }

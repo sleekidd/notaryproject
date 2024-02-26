@@ -7,7 +7,7 @@ import Figures from './Figures';
 const ThreeColumnRow = () => {
   return (
     <div className="flex justify-center items-center" style={{ paddingBottom: '172px'}}>
-        <div className="bg-[#F6F6F6] rounded-full p-4" style={{ width: '1080px', height: '120px'}}>
+        <div className="bg-[#F6F6F6] rounded-full p-4" style={{ width: '100%', maxWidth: '1080px', height: '120px', display: 'flex'}}>
             <div className="grid grid-cols-3 gap-4 items-center justify-center mx-auto" style={{width: '900px' }}>
                 <div className="h-20 rounded-lg flex items-center justify-center">
                     <img src={Trustpilot} alt="Trustpilot" />
