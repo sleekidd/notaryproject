@@ -16,6 +16,12 @@
     }
   }
 
+  .horizontal-line {
+    width: 100%;
+    color: #000000;
+    border: 1px solid #000000;
+  }
+
   .footer-text {
     font-family: 'Rubik';
     font-size: 16px;
