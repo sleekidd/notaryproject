@@ -108,4 +108,55 @@
     }
   }
 
+  .faq-container {
+    padding: 200px 0;
+  }
+  
+  .section-title-container {
+    padding-bottom: 64px;
+  }
+  
+  .section-title {
+    text-align: center;
+  }
+  
+  .accordion-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .accordion-content {
+    width: 100%;
+    max-width: 1066px;
+  }
+  
+  .contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+  }
+  
+  .contact-text {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: left;
+  }
+  
+  .contact-button {
+    padding: 16px 94px;
+    color: #ffffff;
+    background-color: #00b87c;
+    border-radius: 70px;
+    height: 70px;
+    width: 372px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+  }
   
