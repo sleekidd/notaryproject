@@ -14,13 +14,13 @@ const Hero = () => {
         </div>
       </header>
 
-      <div className="relative z-20 flex items-center bg-white dark:bg-gray-800">
+      <div className="relative z-20 flex items-center bg-white">
         <div className="container relative flex flex-col items-center justify-between px-6 mx-auto">
           <div className="flex flex-col">
-            <h2 className="w-full max-w-2xl py-4 mx-auto text-3xl font-light text-center text-gray-500 dark:text-white" style={{ fontFamily: "Montserrat", fontWeight: '400', fontSize: "36px", color: "#101727", lineHeight: "44px" }}>
+            <h2 className="w-full max-w-2xl py-4 mx-auto text-3xl font-light text-center" style={{ fontFamily: "Montserrat", fontWeight: '400', fontSize: "36px", color: "#101727", lineHeight: "44px" }}>
               Designed for International users
             </h2>
-            <h1 className="w-full text-4xl font-light text-center text-gray-800 sm:text-5xl dark:text-white" style={{ fontFamily: "Montserrat", fontWeight: '400', fontSize: "4em", color: "#101727", lineHeight: "78px" }}>
+            <h1 className="w-full text-4xl font-light text-center sm:text-5xl" style={{ fontFamily: "Montserrat", fontWeight: '400', fontSize: "4em", color: "#101727", lineHeight: "78px" }}>
               Get your name <br/> <span style={{ fontFamily: "Montserrat", fontWeight: '700', fontSize: "64px", color: "#00B87C", lineHeight: "78px" }}>changed fast⚡️</span>
             </h1>
             <div className="flex items-center justify-between" style={{width: "566px", height: "44px", paddingTop: '27px' }}>
